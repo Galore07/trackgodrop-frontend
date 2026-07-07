@@ -1,0 +1,163 @@
+.manage-page{
+    max-width:1300px;
+    margin:40px auto;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.manage-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.manage-header h1{
+    color:#8B0000;
+    margin:0;
+}
+
+.create-btn{
+    background:#8B0000;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.create-btn:hover{
+    background:#a40000;
+}
+
+.table-container{
+    overflow-x:auto;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+thead{
+    background:#8B0000;
+    color:white;
+}
+
+th{
+    padding:16px;
+    text-align:left;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid #eee;
+}
+
+tbody tr:hover{
+    background:#fafafa;
+}
+
+.status{
+    padding:6px 12px;
+    border-radius:30px;
+    color:white;
+    font-size:13px;
+    font-weight:bold;
+}
+
+.pending{
+    background:#f39c12;
+}
+
+.processing{
+    background:#3498db;
+}
+
+.in_transit{
+    background:#8e44ad;
+}
+
+.arrived_at_hub{
+    background:#16a085;
+}
+
+.on_hold{
+    background:#e67e22;
+}
+
+.out_for_delivery{
+    background:#2ecc71;
+}
+
+.delivered{
+    background:#27ae60;
+}
+
+.actions{
+    display:flex;
+    gap:10px;
+}
+
+.edit-btn{
+    background:#3498db;
+    color:white;
+    text-decoration:none;
+    padding:8px 14px;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.edit-btn:hover{
+    background:#2980b9;
+}
+
+.delete-btn{
+    background:#e74c3c;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.delete-btn:hover{
+    background:#c0392b;
+}
+
+.loading{
+    text-align:center;
+    margin-top:60px;
+    color:#8B0000;
+}
+
+@media(max-width:768px){
+
+.manage-header{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+th,
+td{
+    padding:12px;
+    font-size:14px;
+}
+
+.actions{
+    flex-direction:column;
+}
+
+.edit-btn,
+.delete-btn{
+    text-align:center;
+}
+
+}

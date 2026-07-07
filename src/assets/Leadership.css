@@ -1,0 +1,232 @@
+ .leadership {
+  padding: 1rem 2rem;
+  background-color: #f8faf7;
+}
+
+.leadership-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 4rem;
+  margin-bottom: 40px;
+}
+
+.leadership-header h2 {
+  font-size: 28px;
+  font-family: "Comic Relief", system-ui;
+  line-height: 1.6;
+  color: black;
+}
+
+.leadership-header p {
+  color: #666;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+.lambaa {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 70px;
+  margin-bottom: 40px;
+  height: 385px;
+  /* border-radius: 10px; */
+  background-color:rgba(160, 97, 97, 0.093);
+}
+
+.grid-containerr {
+  gap: 5px;
+  width: 420px;
+  /* height: 70vh; */
+}
+
+.boxx {
+  text-align: center;
+  border-radius: 3px;
+  /* width: 100%;
+  height: 200px; */
+    width: 280px;
+  height: 360px;
+  overflow: hidden;
+}
+.boxx img{
+    object-fit:cover;
+    /* width: 250px;
+    height: 360px; */
+      width: 100%;
+  height: 100%;
+    margin-top: 13px;
+    border-radius: 3%;
+}
+
+.rumm {
+  border: 1px solid black;
+  height: 200px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 70px;
+
+}
+
+.limee {
+  width: 86%;
+}
+
+.psgg {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.manuu {
+  font-family: "Comic Relief", system-ui;
+  line-height: 25px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.barcaa {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.ora{
+    color: #dfa436;
+}
+
+
+
+
+
+/* Tablets */
+@media (max-width: 992px) {
+  .lambaa {
+    gap: 30px;
+    padding: 2rem;
+  }
+
+  .rumm {
+    width: 45%;
+  }
+
+  .grid-containerr {
+    width: 300px;
+  }
+
+  .boxx img {
+    width: 220px;
+    height: 300px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 768px) {
+  .lambaa {
+    flex-direction: column;
+    align-items: center;
+
+    height: auto;
+    gap: 20px;
+
+    padding: 2rem 1rem;
+    margin-bottom: 30px;
+  }
+
+  .grid-containerr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .boxx {
+    height: auto;
+  }
+
+  .boxx img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin-top: 0;
+  } */
+
+  @media (max-width: 768px) {
+  .boxx {
+    width: 100%;
+    max-width: 360px;  /* Control the image width here */
+    height: 340px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+  }
+
+  .boxx img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+  .rumm {
+    width: 100%;
+    max-width: 400px;
+
+    height: auto;
+    margin-top: 0;
+
+    padding: 1.5rem;
+  }
+
+  .leadership-header h2 {
+    font-size: 24px;
+  }
+
+  .leadership-header p {
+    font-size: 14px;
+  }
+
+  .psgg {
+    font-size: 15px;
+  }
+
+  .manuu {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .barcaa {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+}
+
+/* Very Small Phones */
+@media (max-width: 480px) {
+  .leadership {
+    padding: 1rem;
+  }
+
+  .leadership-header h2 {
+    font-size: 22px;
+  }
+
+  .boxx img {
+    max-width: 240px;
+  }
+
+  .rumm {
+    padding: 1.2rem;
+  }
+
+  .manuu {
+    font-size: 22px;
+  }
+
+  .barcaa {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,165 @@
+.footer {
+    background-color: rgb(160, 97, 97);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+.footer-links, .footer-contact {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* font-family: "Comic Relief", system-ui; */
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+
+.logggo {
+    height: 180px;
+    width: 175px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.midday {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.midday p {
+    font-style: oblique;
+    font-size: 15px;
+    font-weight: bold;
+    /* font-family: "Saira Condensed", serif; */
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    letter-spacing: 10px;
+}
+
+.footer-links h3, .footer-contact h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(160, 97, 97);
+}
+
+
+.footer {
+  background-image:
+    linear-gradient(rgba(6, 3, 3, 0.853), rgba(27, 25, 25, 0.497)),
+    url("../assets/Afeyodion/IMG_1549.JPG");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Comic Relief", system-ui;
+    font-size: 13px;
+    /* border: 1px solid red; */
+     text-align: center;
+     /* width: 80%; */
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+   color: rgb(160, 97, 97);
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+   color: rgb(160, 97, 97);
+    font-size: 20px;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #f8eded;
+    padding-top: 25px;
+    font-size: 14px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Comic Relief", system-ui;
+}
+
+
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center; /* Centers everything */
+        text-align: center; /* Ensures text is centered */
+        gap: 20px; /* Adds spacing between sections */
+    }
+
+    .footer-links, .footer-contact {
+        width: 100%; /* Full width */
+        text-align: center;
+    }
+
+    .footer-links ul {
+        align-items: center;
+        padding: 0;
+    }
+
+    .social-icons a {
+        display: inline-block; /* Ensures icons align properly */
+        margin: 5px 10px;
+    }
+
+    .midday{
+        border-top: 1px solid white;
+        width: 330px;
+        border-bottom: 1px solid white;
+        padding-top: 20px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-bottom p{
+        font-size: 12px;
+    }
+}

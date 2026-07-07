@@ -1,0 +1,53 @@
+.lake {
+margin-top: 25px;
+}
+
+.pit {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* border: 2px solid green; */
+  height: auto;
+  /* font-family: "Kalam", cursive; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 10px;
+}
+
+.maria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  /* border: 2px solid black; */
+  width: 100%;
+  /* height: 70px; */
+  padding-left: 100%;
+  margin-bottom: 5px;
+  animation: scroll-left 19s linear infinite;
+}
+
+.maria img{
+      margin-top: 1px;
+}
+
+.giveme {
+  width: 80px;
+  height: 90px;
+  /* margin-top: -10px; */
+  /* border: 1px solid red; */
+}
+
+.bigd {
+  width: 60px;
+  height: 65px;
+    /* border: 1px solid black; */
+
+}
+
+@media screen and (max-width: 768px) {
+  .maria {
+    gap: 70px;
+    padding-left: 10px;
+    animation: scroll-left 5s linear infinite;
+  }
+}

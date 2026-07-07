@@ -1,0 +1,95 @@
+.abs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  background-color: rgba(160, 97, 97, 0.093);
+  padding: 20px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.okpa {
+  width: 45%;
+  min-width: 300px;
+  margin-left: 10px;
+}
+
+.evah {
+  width: 45%;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.pht {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 7px;
+}
+
+.pes, .pef {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.qiat {
+  font-family: "Comic Relief", system-ui;
+  line-height: 1.6;
+  color: black;
+}
+
+.vvs {
+  color: rgb(160, 97, 97);
+}
+
+.woa {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 768px) {
+  .abs {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .okpa,
+  .evah {
+    width: 100%;
+    margin: 0;
+  }
+
+  .pht {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .qiat {
+    font-size: 18px;
+  }
+
+  .pes, .pef {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .qiat {
+    font-size: 16px;
+  }
+
+  .pes, .pef {
+    font-size: 12px;
+  }
+
+  .woa {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,96 @@
+.eti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  margin-top: 20px;
+    margin-bottom: 20px;
+  /* border: 1px solid red; */
+}
+
+.dada {
+  background-color: rgba(160, 97, 97, 0.093);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 94%;
+  border-radius: 10px;
+    /* border: 1px solid blue; */
+}
+
+.tar {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.sors {
+  text-align: center;
+  font-size: 16px;
+  color: rgb(160, 97, 97);
+}
+
+.mtn {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 9px;
+  margin-bottom: 4px;
+}
+
+.air {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.ttt {
+  line-height: 21px;
+  font-size: 16px;
+  color: white;
+}
+
+.tor {
+  margin-right: 60px;
+}
+
+
+
+
+
+
+/* 🔽 Responsive layout for mobile */
+@media (max-width: 768px) {
+  .dada {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 320px;
+  }
+
+  .air {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .tor {
+    margin: 10px 0;
+  }
+
+  .eti{
+    /* border: 1px solid red; */
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+.dada{
+  width: 90%;
+}
+}
