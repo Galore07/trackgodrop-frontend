@@ -18,11 +18,11 @@ const About = () => { //test
           </h2>
         </div>
 
-        <p className="pes">At TrackGoDrop, we are committed to delivering more than just packages—we deliver reliability, speed, and peace of mind. 
+        <p className="pes">At TrackGoDrop, we are committed to delivering more than just packages, we deliver reliability, speed, and peace of mind. 
           <br />
           Our experienced team works tirelessly to ensure every shipment is handled with care, tracked with precision, and delivered on time. </p>
 
-        <p className="pef">With a customer-first approach and a passion for excellence, we've built a reputation for dependable logistics solutions you can trust.</p>
+        <p className="pes">With a customer-first approach and a passion for excellence, we've built a reputation for dependable logistics solutions you can trust.</p>
           <br />
       </div>
       {/*  */}

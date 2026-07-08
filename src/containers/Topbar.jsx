@@ -29,15 +29,6 @@ const Topbar = () => {
         <div className="seeds">
 
           <a
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="gig"
-          >
-            Chat
-          </a>
-
-          <a
             href="https://facebook.com/profile.php?id=61576617164311"
             target="_blank"
             rel="noopener noreferrer"
@@ -45,26 +36,6 @@ const Topbar = () => {
           > 
             <PiChatsCircleBold />
           </a>
-
-
-
-          {/* <a
-            href="https://wa.me/+2348028589891"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="gig"
-          >
-            <FaWhatsapp />
-          </a>
-
-          <a
-            href="https://tiktok.com/@osatfarmsenterprise?_r=1&_t=ZS-96xM3BndGuC"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="gig"
-          >
-            <FaTiktok />
-          </a> */}
           
         </div>
       </div>

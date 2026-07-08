@@ -12,7 +12,7 @@
 
 .palm {
   background-color: rgb(160, 97, 97);
-  width: 85%;
+  width: 90%;
   height: 40px;
   display: flex;
   justify-content: flex-start;
@@ -54,7 +54,7 @@
 }
 
 .seed {
-  width: 15%;
+  width: 10%;
   background-color: rgb(11, 11, 34);
   height: 40px;
   display: flex;

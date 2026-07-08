@@ -1,5 +1,6 @@
 .lake {
 margin-top: 25px;
+overflow: hidden;
 }
 
 .pit {
@@ -46,8 +47,19 @@ margin-top: 25px;
 
 @media screen and (max-width: 768px) {
   .maria {
-    gap: 70px;
+    gap: 30px;
     padding-left: 10px;
     animation: scroll-left 5s linear infinite;
   }
+
+.giveme{
+    width:60px;
+    height:70px;
+}
+
+.bigd{
+    width:45px;
+    height:50px;
+}
+
 }

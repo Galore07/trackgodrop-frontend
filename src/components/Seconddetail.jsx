@@ -19,7 +19,7 @@ const Seconddetail = () => {
           real-time tracking, timely deliveries, and a commitment to excellence, helping businesses and
           individuals move goods with confidence. </p>
 
-        <p className="pef">Our technology-driven logistics solutions, transparent tracking,
+        <p className="pes">Our technology-driven logistics solutions, transparent tracking,
           and dedicated support make global shipping easier than ever.</p>
       </div>
       {/*  */}

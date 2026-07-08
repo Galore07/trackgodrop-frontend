@@ -92,7 +92,7 @@ export default function TrackShipment() {
         return (
             <div className="loading-container">
                 <div className="spinner"></div>
-                <h2>Tracking Shipment...</h2>
+                {/* <h2>Tracking Shipment...</h2> */}
             </div>
         );
 

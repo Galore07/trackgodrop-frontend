@@ -1,6 +1,6 @@
 // import React from "react";
-import { FaFacebook, FaInstagram, FaYoutube, FaEnvelope } from "react-icons/fa";
-import images from "../assets/Image";
+// import { FaFacebook, FaInstagram, FaYoutube, FaEnvelope } from "react-icons/fa";
+// import images from "../assets/Image";
 import './Footer.css'
 import { Link } from "react-router-dom";
 

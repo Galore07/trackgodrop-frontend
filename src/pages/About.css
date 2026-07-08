@@ -85,15 +85,15 @@
 
 @media screen and (max-width: 480px) {
   .qiat {
-    font-size: 16px;
+    font-size: 20px;
   }
 
-  .pes, .pef {
-    font-size: 12px;
+  .pes {
+    font-size: 15px;
   }
 
   .woa {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 

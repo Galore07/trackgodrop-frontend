@@ -39,6 +39,7 @@
   font-family: "Comic Relief", system-ui;
   line-height: 1.6;
   color: black;
+  font-size: 30px;
 }
 
 .vvs {
@@ -86,7 +87,7 @@
   }
 
   .pes, .pef {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .woa {
