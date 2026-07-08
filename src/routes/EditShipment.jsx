@@ -37,47 +37,6 @@ export default function EditShipment() {
         currentLocation: "",
     });
 
-    //   useEffect(() => {
-    //     loadShipment();
-    //   }, []);
-
-    //   async function loadShipment() {
-    //     try {
-    //       const res = await getShipment(id);
-
-    //       const shipment = res.data.data.shipment;
-
-    //       setFormData({
-    //         senderName: shipment.senderName || "",
-    //         senderPhone: shipment.senderPhone || "",
-    //         senderEmail: shipment.senderEmail || "",
-
-    //         receiverName: shipment.receiverName || "",
-    //         receiverPhone: shipment.receiverPhone || "",
-    //         receiverEmail: shipment.receiverEmail || "",
-
-    //         deliveryAddress: shipment.deliveryAddress || "",
-
-    //         packageType: shipment.packageType || "",
-
-    //         // weight: shipment.weight || "",
-
-    //         status: shipment.status || "pending",
-
-    //         estimatedDeliveryDate:
-    //           shipment.estimatedDeliveryDate
-    //             ?.split("T")[0] || "",
-
-    //         currentLocation:
-    //           shipment.currentLocation || "",
-    //       });
-    //     } catch (err) {
-    //       console.log(err);
-    //     } finally {
-    //       setLoading(false);
-    //     }
-    //   }
-
     useEffect(() => {
         async function loadShipment() {
             try {
