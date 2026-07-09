@@ -38,7 +38,7 @@ const Navbar = () => {
           </li> */}
 
           <li>
-            <Link to="/consultancy">CONTACT</Link>
+            <a href="mailto:support@trackgodrop.com?subject=Shipment%20Inquiry">CONTACT</a>
           </li>
         </ul>
 
@@ -52,8 +52,7 @@ const Navbar = () => {
             <li onClick={closeMenu}><Link to="/">HOME</Link></li>
             <li onClick={closeMenu}><Link to="/about">ABOUT US</Link></li>
             <li onClick={closeMenu}><Link to="/track">TRACK SHIPMENT</Link></li>
-            {/* <li onClick={closeMenu}><Link to="/plantation">SERVICES</Link></li> */}
-            <li onClick={closeMenu}><Link to="/">CONTACT</Link></li>
+            <li onClick={closeMenu}><a href="mailto:support@trackgodrop.com?subject=Shipment%20Inquiry">CONTACT</a></li>
           </ul>
         </div>
 

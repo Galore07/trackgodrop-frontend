@@ -24,6 +24,10 @@ import image23 from "./Afeyodion/IMG_1576.PNG"
 import image24 from "./Afeyodion/IMG_1577.PNG"
 import image25 from "./Afeyodion/IMG_1584.jpg"
 
+import image26 from "./Afeyodion/about-one.PNG"
+import image27 from "./Afeyodion/about-two.PNG"
+
+
 
 
 
@@ -59,6 +63,8 @@ const images = {
   image23,
   image24,
   image25,
+  image26,
+  image27,
 };
 
 export default images;

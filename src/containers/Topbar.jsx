@@ -1,6 +1,6 @@
 // import React from "react";
 // import { FaFacebook, FaInstagram, FaWhatsapp, FaTiktok } from "react-icons/fa";
-import { PiChatsCircleBold } from "react-icons/pi";
+import { MdEmail } from "react-icons/md";
 
 import { FiPhone } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
@@ -29,12 +29,12 @@ const Topbar = () => {
         <div className="seeds">
 
           <a
-            href="https://facebook.com/profile.php?id=61576617164311"
+            href="mailto:support@trackgodrop.com?subject=Shipment Inquiry"
             target="_blank"
             rel="noopener noreferrer"
             className="gig"
           > 
-            <PiChatsCircleBold />
+            <MdEmail />
           </a>
           
         </div>

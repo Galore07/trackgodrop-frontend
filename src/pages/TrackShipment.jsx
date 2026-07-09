@@ -110,20 +110,15 @@ export default function TrackShipment() {
     return (
         <div className="track-page">
 
-            <h1>Shipment Information</h1>
-
-            <div className="tracking-number">
-                Tracking Number:
-                <span>{shipment.trackingNumber}</span>
-            </div>
-
-            <div className="tracking-number">
-                Shipment Created:
-                <span>{new Date(shipment.createdAt).toLocaleDateString("en-GB", {
+            <div className="status-box">
+                <h2 className="shap">Shipment Information</h2>
+                <h5 className="hyped">Tracking Number: {shipment.trackingNumber}</h5>
+                <h5 className="hyped"> Created On: {new Date(shipment.createdAt).toLocaleDateString("en-GB", {
                     day: "2-digit",
                     month: "long",
                     year: "numeric",
-                })}</span>
+                })}</h5>
+
             </div>
 
 
@@ -149,9 +144,9 @@ export default function TrackShipment() {
             </div>
 
             <div className="status-box">
-                <h3>Current Status</h3>
+                <h3 className="goat">Current Status</h3>
 
-                <h2>{shipment.status.replaceAll("_", " ")}</h2>
+                <h2 className="menthol">{shipment.status.replaceAll("_", " ")}</h2>
 
                 <p>{statusMessage}</p>
             </div>

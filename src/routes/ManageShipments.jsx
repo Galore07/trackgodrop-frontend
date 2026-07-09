@@ -10,24 +10,6 @@ export default function ManageShipments() {
     const [shipments, setShipments] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    // useEffect(() => {
-    //     loadShipments();
-    // }, []);
-
-    // async function loadShipments() {
-    //     try {
-    //         setLoading(true);
-
-    //         const res = await getAllShipments();
-
-    //         setShipments(res.data.data.shipments);
-    //     } catch (err) {
-    //         console.log(err);
-    //     } finally {
-    //         setLoading(false);
-    //     }
-    // }
-
     useEffect(() => {
         async function loadShipments() {
             try {

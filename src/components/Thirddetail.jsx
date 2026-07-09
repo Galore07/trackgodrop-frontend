@@ -15,7 +15,7 @@ const Thirddetail = () => {
         </div>
 
         <div className="tor">
-          <h4 className="sors">1B+</h4>
+          <h4 className="sors">100M+</h4>
           <h6 className="tar">PACKAGES SHIPPED</h6>
         </div>
 

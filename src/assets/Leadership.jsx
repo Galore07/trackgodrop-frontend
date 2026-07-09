@@ -15,7 +15,7 @@ export default function Leadership() { //tt
       <div className="lambaa">
         <div className="grid-containerr">
           <div className="boxx">
-            <img src={images.image7} alt="ceo" />
+            <img src={images.image26} alt="ceo" />
           </div>
         </div>
 
@@ -23,7 +23,7 @@ export default function Leadership() { //tt
           <div className="limee">
             <h3 className="psgg">Chief Operating Officer</h3>
             <h2 className="manuu">
-              Nathan
+              Claire
             </h2>
             <p className="barcaa">
               Responsible for overseeing daily logistics operations, delivery performance, fleet management, and operational efficiency.            </p>
@@ -34,7 +34,7 @@ export default function Leadership() { //tt
       <div className="lambaa">
         <div className="grid-containerr">
           <div className="boxx">
-            <img src={images.image8} alt="md" />
+            <img src={images.image27} alt="md" />
           </div>
         </div>
 

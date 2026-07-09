@@ -22,7 +22,7 @@ const Footer = () => {
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/track">Track Shipment</Link></li>
             {/* <li><Link to="/">Services</Link></li> */}
-            <li><Link to="/">Contact</Link></li>
+            <li><a href="mailto:support@trackgodrop.com?subject=Shipment%20Inquiry">CONTACT</a></li>
           </ul>
         </div>
 
@@ -31,6 +31,7 @@ const Footer = () => {
           <p>Email: trackgodrop@info.com</p>
           <p>Phone: +1 514 555 422</p>
           <p>Address: Ontario, Canada</p>
+          <p>Monday - Saturday: 9:00 - 18:00</p>
         </div>
 
         {/* <div className='midday'> */}
