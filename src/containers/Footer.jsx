@@ -22,7 +22,7 @@ const Footer = () => {
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/track">Track Shipment</Link></li>
             {/* <li><Link to="/">Services</Link></li> */}
-            <li><a href="mailto:support@trackgodrop.com?subject=Shipment%20Inquiry">CONTACT</a></li>
+            <li className='vibez'><a href="mailto:support@trackgodrop.com?subject=Shipment%20Inquiry">CONTACT</a></li>
           </ul>
         </div>
 

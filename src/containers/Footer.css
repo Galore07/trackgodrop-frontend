@@ -89,12 +89,17 @@
   transition: color 0.3s;
 }
 
+.vibez{
+  font-size: 11px;
+}
+
 .footer-links a:hover {
   color: rgb(160, 97, 97);
 }
 
 .footer-contact p {
   margin: 5px 0;
+  font-size: 15px;
   color: #ddd;
 }
 

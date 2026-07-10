@@ -1,8 +1,11 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { createShipment } from "../services/ShipmentApi";
 import "./CreateShipment.css"
 
 export default function CreateShipment() {
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     senderName: "",
     senderPhone: "",
@@ -40,6 +43,10 @@ export default function CreateShipment() {
       console.log(res.data);
 
       setMessage("Shipment created successfully!");
+
+      setTimeout(() => {
+        navigate("/shipments");
+      }, 1000);
 
       setFormData({
         senderName: "",
@@ -144,14 +151,6 @@ export default function CreateShipment() {
           onChange={handleChange}
           required
         />
-
-        {/* <input
-          type="number"
-          name="weight"
-          placeholder="Weight (kg)"
-          value={formData.weight}
-          onChange={handleChange}
-        /> */}
 
         <select
           name="status"

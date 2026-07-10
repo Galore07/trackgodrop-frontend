@@ -1,5 +1,10 @@
 // TGD986796744
 // TGD209672489
+
+// git add .
+// git commit -m "Add Vercel rewrites"
+// git push
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import images from "../assets/Image";
